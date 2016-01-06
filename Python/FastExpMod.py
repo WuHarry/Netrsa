@@ -15,7 +15,7 @@ def fastExpMod(b, e, m):
         if (e & 1) == 1:
             # ei=1,then mul
             result = (result * b) % m
-        e = e >> 1
+        e >>= 1
         # b, b^2, b^4, ... , b^(2^n)
         b = (b * b) % m
     return result
