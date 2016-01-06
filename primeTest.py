@@ -9,7 +9,6 @@ b^e mod m = ((b^(e0*(2^0)) mod m) * (b^(e1*(2^1)) mod m) * (b^(e2*(2^2)) mod m) 
 import random
 from FastExpMod import fastExpMod
 
-
 def primeTest(n):
     q = n - 1
     k = 0

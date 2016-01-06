@@ -1,4 +1,3 @@
-# 扩展欧几里得算法
 """
   "    gcd(a, b) = a*xi + b*yi\n"
   "    gcd(b, a %  b) = b*xi+1 + (a - [a/b]*b)*yi+1\n"
